@@ -1,0 +1,33 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "meta": {
+    "title": "Puch Toh Lo — WordPress demo",
+    "author": "Puch Toh Lo",
+    "description": "Client review demo: a classic WordPress theme with editable experts, circles and conversations. Sample content; forms are presentation-only."
+  },
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
+  "landingPage": "/",
+  "login": true,
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "url",
+        "url": "https://raw.githubusercontent.com/bniloy75/puch-toh-lo-wp-demo/main/puch-toh-lo.zip"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": {
+        "blogname": "Puch Toh Lo",
+        "blogdescription": "A quieter corner of the internet"
+      }
+    }
+  ]
+}
