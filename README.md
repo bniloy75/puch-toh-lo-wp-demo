@@ -8,7 +8,7 @@ A client-review WordPress theme for Puch Toh Lo (formerly The Healing Room).
 
 ## Files
 
-- `blueprint.json` — WordPress Playground setup: installs and activates the theme, which seeds the sample content on activation.
+- `blueprint-v3.json` — WordPress Playground setup: installs and activates the theme, which seeds the sample content on activation.
 - `puch-toh-lo.zip` — the theme itself (classic PHP theme, PHP 7.4+).
 
 ## Run it yourself
@@ -16,7 +16,7 @@ A client-review WordPress theme for Puch Toh Lo (formerly The Healing Room).
 Paste this into a browser:
 
 ```
-https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/bniloy75/puch-toh-lo-wp-demo/main/blueprint.json
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/bniloy75/puch-toh-lo-wp-demo/main/blueprint-v3.json
 ```
 
 Or upload `puch-toh-lo.zip` to any WordPress site under **Appearance → Themes → Add New → Upload Theme**, then activate it. Activation seeds the sample experts, circles, conversations and the Ask / About pages.
