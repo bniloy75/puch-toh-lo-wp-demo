@@ -16,7 +16,7 @@
       "step": "installTheme",
       "themeData": {
         "resource": "url",
-        "url": "https://raw.githubusercontent.com/bniloy75/puch-toh-lo-wp-demo/main/puch-toh-lo.zip"
+        "url": "https://raw.githubusercontent.com/bniloy75/puch-toh-lo-wp-demo/main/puch-toh-lo.zip?v=2"
       },
       "options": {
         "activate": true
